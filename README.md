@@ -1,12 +1,10 @@
 # MOOC Research on edX data
 
-This is the underground version of the MOOC Engagement research at Notre Dame. If you are seeing this, you are either part of the chosen few (and/or a 1337 |-|@XXoR!).
+## Our paper
+Please watch this space for an updated code-base for our paper "MOOC Dropout Prediction: Lessons Learned from Making Pipelines Interpretable". We are excited to annouce that this work will be featured at WWW Conference 2017.  The camera ready version of the paper is available [here](http://www3.nd.edu/~snagrech/papers/MOOCWWW2017.pdf).
 
-The code for this research is broken down into the following components (the file structure reflects this hierarchy as well):
-* Feature Engineering:
-    * Extract user agent data (A)
-    * Extract engagement data (B)
-* Engagement Prediction
-    * Divide students into train and test sets
-    * Create featuresets for A, B, and A+B
-    * Predict engagement longitudinally
+## About this repository
+The current notebook describes some of the rudimentary preprocessing steps we took to convert raw edX server logs to structured Pandas dataframes (dumped to file). We will have the codebase available soon.
+
+## Contact
+Please feel free to contact me (first author) at snagrech [at] nd [dot] edu for any feedback/suggestions/collaborations.
